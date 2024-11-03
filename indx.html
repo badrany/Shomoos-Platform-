@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Shomos platform</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+     
+  </style>
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader"></div>
+    <p>
+      Loading...
+    </p>
+</div>
+  <header>
+    <h1>Shomos platform </h1>
+    <nav>
+        <button class="animated-button" onclick="navigateTo('home')">Home</button>
+      <button class="animated-button" onclick="navigateTo('videos')">Videos</button>
+      <button class="animated-button" onclick="navigateTo('gallery')">Photo gallery</button>
+      <button class="animated-button" onclick="navigateTo('about')">Who are we? </button>
+      <button class="animated-button" onclick="navigateTo('contact')"> Contact us</button>
+      <button class="animated-button" onclick="openPage(2)">  price list</button>
+
+      <script>
+        function openPage() {
+          window.location.href = 'https://gray-benny-46.tiiny.site';
+        }
+      </script>
+       
+      <img class="vin1" src="3.png">
+    </nav>
+
+  </header>
+
+  <main id="content">
+    <section id="home" class="page active">
+      <h2>Welcome to the Shomoos platform</h2>
+      <p>We are an Arab platform that aims to teach foreigners the Qur’an and Tajweed</p>
+
+      <img class="vin" src="3.png">
+    </section>
+
+    <section id="videos" class="page">
+      <h2>Educational videos:</h2>
+      <h3>
+        Subscribe to the channel and watch educational videos
+      </h3>
+       <center>
+        <button class="animated-button1" onclick="goToSite('https://youtube.com')">youtube</button>
+      </center>
+        
+         
+     
+      <center>
+        <div class="icon">
+          <img src="4.png" alt="أيقونة" width="100" height="100">
+      </div>
+
+    </center>
+
+  </div>
+      <br>
+    <br>
+    </section>
+
+    <section id="gallery" class="page">
+      <h2></h2>
+      <div class="gallery">
+        <img src="1.png" alt="صورة 1">
+        
+        <img src="2.png" alt="صورة 2">
+
+        <img src="3.png" alt="صورة 3">
+      </div>
+    </section>
+
+    <section id="about" class="page">
+      <h2>Who are we? </h2>
+      <p> We are a platform that aims to teach foreigners the Holy Quran and Tajweed</p>
+      <img class="vin" src="3.png">
+    </section>
+
+    <section id="contact" class="page">
+      <h2>  </h2>
+      <p><h2> Contact us via:</h2>  
+        <a href="mailto:saidshaimaa962@gmail.com" 
+        class="email-link">saidshaimaa962@gmail.com</a>
+   </p>
+    
+
+
+   
+
+      <body>
+
+        <div class="button-container">
+          <button class="animated-button3" onclick="window.open('https://wa.me/201010658547', '_blank')">
+            WhatsApp
+        </button>
+          <button class="animated-button4" onclick="goToSite('https://www.facebook.com/groups/1269070801116322/?hoisted_section_header_type=recently_seen&multi_permalinks=1269072397782829')">Facebook</button>
+          <button class="animated-button2" onclick="goToSite('tel:+201010658547')">Call US</button>
+         
+        </div>
+      
+
+
+
+
+
+        <script>
+          function goToSite(url) {
+            window.open(url, '_blank');
+          }
+        </script>
+      
+
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Yunus platform -  All rights reserved </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
